@@ -1,5 +1,5 @@
-import React from "react"; 
-import CatListItem from "./cat_list_item";
+import React from 'react'; 
+import CatListItem from './cat_list_item';
 
 const CatList = (props) => {
     if (!props.cats)
@@ -16,7 +16,7 @@ const CatList = (props) => {
     });
     return (
         //list-group 
-        <ul className="myList">
+        <ul className='myList'>
             {allcats}
         </ul>
     );

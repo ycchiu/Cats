@@ -1,8 +1,8 @@
-import React, {Component} from "react"; 
-import ReactDOM from "react-dom";
-import DataServer from "./services/dataserver";
-import CatList from "./components/cat_list";
-import ScrollDetector from "./components/scroll_detector";
+import React, {Component} from 'react'; 
+import ReactDOM from 'react-dom';
+import DataServer from './services/dataserver';
+import CatList from './components/cat_list';
+import ScrollDetector from './components/scroll_detector';
 
 
 class App extends Component {
@@ -57,4 +57,4 @@ class App extends Component {
 }
 
 
-ReactDOM.render(<App />, document.querySelector(".myContainer"));
+ReactDOM.render(<App />, document.querySelector('.myContainer'));

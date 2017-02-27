@@ -13,7 +13,7 @@ You'll need npm and Node.js before your running this project:
 * [Node.js](https://nodejs.org/en/) - got Node.js installer here.
 * [npm](http://blog.npmjs.org/post/85484771375/how-to-install-npm) - see how to setup npm after installed Node.js
 
-After you've installed Node.js, you can make sure you've got the latest version of npm by running this: (please see npm blog post: http://blog.npmjs.org/post/85484771375/how-to-install-npm)
+After you've installed Node.js, you can make sure you've got the latest version of npm by running this:
 
 ```
 sudo npm install npm -g
@@ -50,27 +50,4 @@ Use ESLint to do the linting
 npm run lint
 ```
 
-## Test
-
-Use Mocha to do the testing
-
-```
----------------
-```
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
 

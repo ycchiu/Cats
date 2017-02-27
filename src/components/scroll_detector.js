@@ -1,4 +1,4 @@
-import React, {Component} from "react"; 
+import React, {Component} from 'react'; 
 
 
 class ScrollDetector extends Component {
@@ -9,8 +9,7 @@ class ScrollDetector extends Component {
     }
 
     handleScroll() {
-        const windowHeight = "innerHeight" in window ? 
-                            window.innerHeight : document.documentElement.offsetHeight;
+        const windowHeight = 'innerHeight' in window ? window.innerHeight : document.documentElement.offsetHeight;
         const body = document.body;
         const html = document.documentElement;
         const docHeight = Math.max( body.scrollHeight, 
@@ -26,11 +25,11 @@ class ScrollDetector extends Component {
     }
 
     componentDidMount() {
-        window.addEventListener("scroll", this.handleScroll);
+        window.addEventListener('scroll', this.handleScroll);
     }
 
     componentWillUnmount() {
-        window.removeEventListener("scroll", this.handleScroll);
+        window.removeEventListener('scroll', this.handleScroll);
     }
 
     render() {
