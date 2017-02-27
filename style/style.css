@@ -1,0 +1,33 @@
+.myContainer {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.myList {
+    list-style-type: none;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: : space-between;
+}
+
+.myListItem {
+    position: relative;
+    display: inline-block;
+    border: 1px solid #aaa;
+    padding: 1em;
+    padding-bottom: 5em;
+    margin: 1em;
+}
+
+.myListItem img{
+    margin: 0 auto;
+    width: auto;
+    max-width: 50em;
+    height: auto
+}
+
+.fact {
+    text-align: center;
+    margin: 1% auto;
+    width: auto;
+}
