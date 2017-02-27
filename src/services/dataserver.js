@@ -1,4 +1,4 @@
-var xmlToJSON = require("../lib/xmlToJSON.min");
+const xmlToJSON = require("../../lib/xmlToJSON.min");
 const IMG_URL = "http://mapd-cats.azurewebsites.net/catpics";
 const FACT_URL = "http://mapd-cats.azurewebsites.net/catfacts";
 

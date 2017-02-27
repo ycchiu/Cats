@@ -17,17 +17,28 @@
     padding: 1em;
     padding-bottom: 5em;
     margin: 1em;
+    opacity: 0;
 }
 
 .myListItem img{
     margin: 0 auto;
     width: auto;
     max-width: 50em;
-    height: auto
+    height: auto;    
 }
 
 .fact {
     text-align: center;
     margin: 1% auto;
     width: auto;
+}
+
+.addImage {
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+
+.removeImage {
+    opacity: 0;
+    transition: opacity 0.5s;
 }

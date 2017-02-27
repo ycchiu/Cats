@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"; 
 import CatListItem from "./cat_list_item";
 
 const CatList = (props) => {

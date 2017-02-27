@@ -47,11 +47,10 @@ class App extends Component {
     render () {
         return (
             <div>
-            <CatList 
-                cats={this.state.cats}
-                onCatSelected={(clickedCat) =>{this.removeCat(clickedCat)}} />
-            <ScrollDetector
-                onPageBottom={()=>this.reload()}/>
+                <CatList 
+                    cats={this.state.cats}
+                    onCatSelected={(clickedCat) =>{this.removeCat(clickedCat)}} />
+                <ScrollDetector onPageBottom={()=>this.reload()}/>
             </div>
         );
     }
