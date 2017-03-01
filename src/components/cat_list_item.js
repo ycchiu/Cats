@@ -1,8 +1,5 @@
 import React, {Component} from 'react'; 
 
-//{video} = the param has a property called video. please grab the property 
-//and put the the variables called video
-
 class CatListItem extends Component {
     constructor (props) {
         super(props);
