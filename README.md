@@ -42,7 +42,7 @@ Then run the following command in Cats/ directory:
 Finally, open your browser and go to http://localhost:8080.
 
 
-## Lint
+### Lint
 
 Use ESLint to do the linting
 
